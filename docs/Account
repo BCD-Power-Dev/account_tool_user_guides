@@ -1,0 +1,12 @@
+# Account Tool Components
+## Account Selection
+### GCN Level
+### Country (SMID) Level
+### Entity (LCN/TSPM) Level
+### Favorites
+
+flowchart TB
+  A["Account Selection"] --> B["GCN Level"]
+  A --> C["Country (SMID) Level"]
+  A --> D["Entity (LCN/TSPM) Level"]
+  A --> E["Favorites"]
