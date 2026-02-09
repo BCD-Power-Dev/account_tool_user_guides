@@ -23,6 +23,7 @@ Overview of segments within the tool
 - Country (SMID)
 - Entity (LCN/TSPM)
 
+```text
 ┌───────────────────────────────┐
 │        Account Selection      │
 └───────────────┬───────────────┘
@@ -33,12 +34,13 @@ Overview of segments within the tool
 │   GCN Level   │   │   Favorites   │
 └───────────────┘   └───────────────┘
                 │
-                │
         ┌───────┴───────────────────┐
         │                           │
 ┌───────────────────────┐   ┌───────────────────────┐
 │ Country (SMID) Level  │   │ Entity (LCN/TSPM) Level│
 └───────────────────────┘   └───────────────────────┘
+```
+
 ### Summary
 ### Policy
 ### Technology/Process
