@@ -11,6 +11,33 @@ Overview of the support conditions
 ## Navigation
 Overview of segments within the tool
 ### Account Selection
+#### GCN Level
+##### Search by GCN / Name
+##### Preview/Select Filtered Country (SMID) based on selected GCN
+##### Option to select Country(SMID) or View Entities (LCN/TSPM)
+#### Country (SMID) Level
+##### SMID Selection only
+#### Entity (LCN/TSPM) Level
+##### Entity Selection only
+#### Favorites
+##### Country (SMID)
+##### Entity (LCN/TSPM)
+
+┌───────────────────────────────┐
+│        Account Selection      │
+└───────────────┬───────────────┘
+                │
+ ┌──────────────┼───────────────┬───────────────┬───────────────┐
+ │              │               │               │               │
+▼              ▼               ▼               ▼
+┌───────────┐  ┌─────────────────────┐  ┌─────────────────────┐  ┌───────────┐
+│ GCN Level │  │ Country (SMID) Level│  │ Entity (LCN/TSPM)    │  │ Favorites │
+└───────────┘  └─────────────────────┘  │ Level               │  └───────────┘
+                                        └─────────────────────┘         ▼
+                                                         ┌──────────────┼─────────────┐
+                                                ┌──────────────────────┐  ┌─────────────────────┐  
+                                                │ Country (SMID) Fav   │  │ Entity (LCN) Fav    │ 
+                                                └──────────────────────┘  └─────────────────────┘
 ### Summary
 ### Policy
 ### Technology/Process
