@@ -11,6 +11,23 @@ Overview of the support conditions
 ## Navigation
 Overview of segments within the tool
 ### Account Selection
+```text
+┌───────────────────────────────┐
+│        Account Selection      │
+└───────────────┬───────────────┘
+                │
+ ┌──────────────┼───────────────┬───────────────┬───────────────┐
+ │              │               │               │               │
+▼              ▼               ▼               ▼
+┌───────────┐  ┌─────────────────────┐  ┌─────────────────────┐  ┌───────────┐
+│ GCN Level │  │ Country (SMID) Level│  │ Entity (LCN/TSPM)    │  │ Favorites │
+└───────────┘  └─────────────────────┘  │ Level               │  └───────────┘
+                                        └─────────────────────┘         ▼
+                                                         ┌──────────────┼─────────────┐
+                                                ┌──────────────────────┐  ┌─────────────────────┐  
+                                                │ Country (SMID) Fav   │  │ Entity (LCN) Fav    │ 
+                                                └──────────────────────┘  └─────────────────────┘
+```
 #### GCN Level
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
@@ -22,24 +39,6 @@ Overview of segments within the tool
 #### Favorites
 - Country (SMID)
 - Entity (LCN/TSPM)
-
-```text
-┌───────────────────────────────┐
-│        Account Selection      │
-└───────────────┬───────────────┘
-                │
-     ┌──────────┴──────────┐
-     │                     │
-┌───────────────┐   ┌───────────────┐
-│   GCN Level   │   │   Favorites   │
-└───────────────┘   └───────────────┘
-                │
-        ┌───────┴───────────────────┐
-        │                           │
-┌───────────────────────┐   ┌───────────────────────┐
-│ Country (SMID) Level  │   │ Entity (LCN/TSPM) Level│
-└───────────────────────┘   └───────────────────────┘
-```
 
 ### Summary
 ### Policy
