@@ -28,7 +28,7 @@ Overview of segments within the tool
                                                 └──────────────────────┘  └──────────────────┘
 ```
 #### GCN Level
-<img src="./images/account_selection_land.gif" width="100%" alt="Video Placeholder">
+<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif" width="100%" alt="Video Placeholder">
 
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
