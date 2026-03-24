@@ -5,13 +5,12 @@ The new tool replaces the OKB account tool. Previous Account information that wa
 ### Agent/User
 All standard users have read access only. Content edits or request will be forwarded to supervisors/managers/ops teams for content update request.
 ### Editors
-### Content Support Teams
-## Support
-Overview of the support conditions
+Editor will have custom access to Add/Edit policy and related items similar to OKB. 
 ## Navigation
 Overview of segments within the tool
 ### Account Selection
-```text
+```
+
 ┌───────────────────────────────┐
 │        Account Selection      │
 └───────────────┬───────────────┘
@@ -29,19 +28,27 @@ Overview of segments within the tool
                                                 └──────────────────────┘  └──────────────────┘
 ```
 #### GCN Level
+<img src="./images/account_selection_land.gif" width="100%" alt="Video Placeholder">
+
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
 - Option to select Country(SMID) or View Entities (LCN/TSPM)
 #### Country (SMID) Level
+<img src="./images/select_smid.gif" width="100%" alt="Video Placeholder">
+
 - SMID Selection only
 #### Entity (LCN/TSPM) Level
+<img src="./images/select_entity_2.gif" width="100%" alt="Video Placeholder">
+
 - Entity Selection only
 #### Favorites
+<img src="./images/select_fav_2.gif" width="100%" alt="Video Placeholder">
+
 - Country (SMID)
 - Entity (LCN/TSPM)
 
 ### Summary
-```text
+```
 ┌───────────────────────────────┐
 │          Summary (Main)       │
 └───────────────┬───────────────┘
@@ -53,12 +60,12 @@ Overview of segments within the tool
                │              │              │                           │                     │              │
                ▼              ▼              ▼                           ▼                     ▼              ▼
 ┌──────────────────────┐ ┌───────────────┐ ┌───────────────┐ ┌────────────────────────────┐ ┌───────────────────┐ ┌────────────┐
-│    Account Detail     │ │    Status     │ │   PCC / OID    │ │ Standard Form of Payment   │ │ Deal/Disc Codes   │ │  Contacts  │
-└───────────┬───────────┘ └───────────────┘ └───────────────┘ └────────────────────────────┘ └───────────────────┘ └────────────┘
+│    Account Detail    │ │    Status     │ │   PCC / OID   │ │ Standard Form of Payment   │ │ Deal/Disc Codes   │ │  Contacts  │
+└───────────┬──────────┘ └───────────────┘ └───────────────┘ └────────────────────────────┘ └───────────────────┘ └────────────┘
             │                    │                     │                     │                      │
             ▼                    ▼                     ▼                     ▼                      ▼
 ┌───────────────────┐  ┌─────────────┐     ┌───────────────────┐    ┌────────────────────┐   ┌───────────────────────┐
-│ TSPM Number       │  │   OBT       │     │ Region of Service │    │ Point of Sale Tool │   │ Daytime Ops Hours      │
+│ TSPM Number       │  │   OBT       │     │ Region of Service │    │ Point of Sale Tool │   │ Daytime Ops Hours     │
 ├───────────────────┤  └─────────────┘     ├───────────────────┤    └────────────────────┘   └───────────────────────┘
 │ GDS               │                      │ Ops Region        │
 ├───────────────────┤                      ├───────────────────┤
@@ -100,7 +107,37 @@ Overview of segments within the tool
 └───────────────────┘
 ```
 ### Policy
+#### General & Core
+<img src="./images/policy_overview.gif" width="100%" alt="Video Placeholder">
+
+##### General
+The previous OKB section that housed technology has been replaced by general that AI has summarized into major catogories. The General policy tab also includes:
+- General
+- Passport/Visa
+- Country/Security Risks
+- Travel Bookers
+- OBT
+- Reportable Fields
+- Form of Payment (FOP)
+##### Policy
+<img src="./images/policy_detail.gif" width="100%" alt="Video Placeholder">
+
+Policy is migrated topics from OKB. The policy section now includes child topics so a parent topic can have nested topics. Air, Car, Hotel, Rail, Ground, Ferry, Taxi/Limo tabs include:
+- Traveler Types
+  - Fare Class Rules (by Traveler Type)
+  - Policy (by Traveler Type)
+  - Form of Payment (by Traveler Type)
+  - Process (by Traveler Type)
+  - Approval Process (by Traveler Type)
+- Savings/Reason Codes
+- Contract Detail
+- Document (By category selected)
 ### Technology/Process
+TBD
 ### Documents
+<img src="./images/Document_Overview.gif" width="100%" alt="Video Placeholder">
+
+General Document repositiry based on GCN level. Docuemnt Will be opened in a new tab. Document are stored in the SharePoint Document Library. 
 ### ESS
+TBD
 
