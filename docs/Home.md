@@ -28,21 +28,21 @@ Overview of segments within the tool
                                                 └──────────────────────┘  └──────────────────┘
 ```
 #### GCN Level
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif" width="100%" alt="Video Placeholder">
 
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
 - Option to select Country(SMID) or View Entities (LCN/TSPM)
 #### Country (SMID) Level
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_smid.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_smid.gif" width="100%" alt="Video Placeholder">
 
 - SMID Selection only
 #### Entity (LCN/TSPM) Level
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_entity_2.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_entity_2.gif" width="100%" alt="Video Placeholder">
 
 - Entity Selection only
 #### Favorites
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_fav_2.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_fav_2.gif" width="100%" alt="Video Placeholder">
 
 - Country (SMID)
 - Entity (LCN/TSPM)
@@ -108,10 +108,10 @@ Overview of segments within the tool
 ```
 ### Policy
 #### General & Core
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/policy_overview.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/policy_overview.gif" width="100%" alt="Video Placeholder">
 
 ##### General
-The previous OKB section that housed technology has been replaced by general that AI has summarized into major catogories. The General policy tab also includes:
+The previous OKB section that housed technology has been replaced by a general one that AI has summarized into major categories. The General policy tab also includes:
 - General
 - Passport/Visa
 - Country/Security Risks
@@ -120,9 +120,9 @@ The previous OKB section that housed technology has been replaced by general tha
 - Reportable Fields
 - Form of Payment (FOP)
 ##### Policy
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/policy_detail.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/policy_detail.gif" width="100%" alt="Video Placeholder">
 
-Policy is migrated topics from OKB. The policy section now includes child topics so a parent topic can have nested topics. Air, Car, Hotel, Rail, Ground, Ferry, Taxi/Limo tabs include:
+Policy is migrated to topics from OKB. The policy section now includes child topics so a parent topic can have nested topics. Air, Car, Hotel, Rail, Ground, Ferry, Taxi/Limo tabs include:
 - Traveler Types
   - Fare Class Rules (by Traveler Type)
   - Policy (by Traveler Type)
@@ -135,9 +135,9 @@ Policy is migrated topics from OKB. The policy section now includes child topics
 ### Technology/Process
 TBD
 ### Documents
-<img src="https://github.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/Document_Overview.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/Document_Overview.gif" width="100%" alt="Video Placeholder">
 
-General Document repositiry based on GCN level. Docuemnt Will be opened in a new tab. Document are stored in the SharePoint Document Library. 
+General Document repository based on GCN level. The document will be opened in a new tab. Documents are stored in the SharePoint Document Library. 
 ### ESS
 TBD
 
