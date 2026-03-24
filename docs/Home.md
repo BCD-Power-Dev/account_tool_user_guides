@@ -1,11 +1,11 @@
 # Home
 ## Operational Knowledge Tool Overview
-The new tool replaces the OKB account tool. Previous Account information that was stored in sharepoint has been migrated. There are several implementation phases that will be released based on the function builds in the new tool. 
+The new tool replaces the OKB account tool. Previous Account information that was stored in SharePoint has been migrated. There are several implementation phases that will be released based on the functions built into the new tool. 
 ## Access
 ### Agent/User
-All standard users have read access only. Content edits or request will be forwarded to supervisors/managers/ops teams for content update request.
+All standard users have read access only. Content edits or requests will be forwarded to supervisors/managers/ops teams for content update requests.
 ### Editors
-Editor will have custom access to Add/Edit policy and related items similar to OKB. 
+The editor will have custom access to Add/Edit policy and related items similar to OKB. 
 ## Navigation
 Overview of segments within the tool
 ### Account Selection
@@ -28,7 +28,7 @@ Overview of segments within the tool
                                                 └──────────────────────┘  └──────────────────┘
 ```
 #### GCN Level
-<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif" width="100%" alt="Video Placeholder">
+![Video Placeholder](https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif)
 
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
