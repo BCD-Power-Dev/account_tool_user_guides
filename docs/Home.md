@@ -9,23 +9,8 @@ The editor will have custom access to Add/Edit policy and related items similar 
 ## Navigation
 Overview of segments within the tool
 ### Account Selection
-```
-┌───────────────────────────────┐
-│        Account Selection      │
-└───────────────┬───────────────┘
-                │
-     ┌──────────┼───────────────────────────────────────────────────┐
-     │              │               │               │               │
-     ▼              ▼               ▼               ▼               ▼
-┌───────────┐  ┌─────────────────────┐  ┌─────────────────────┐  ┌───────────┐
-│ GCN Level │  │ Country (SMID) Level│  │ Entity (LCN/TSPM)   │  │ Favorites │
-└───────────┘  └─────────────────────┘  └─────────────────────┘  └───────────┘         
-                                                                        ▼
-                                                         ┌──────────────┼─────────────┐
-                                                ┌──────────────────────┐  ┌──────────────────┐  
-                                                │ Country (SMID) Fav   │  │ Entity (LCN) Fav │ 
-                                                └──────────────────────┘  └──────────────────┘
-```
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/account_selection_diagram.svg" width="100%" alt="Video Placeholder">
+
 #### GCN Level
 <img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/account_selection_land.gif" width="100%" alt="Video Placeholder">
 
@@ -47,64 +32,8 @@ Overview of segments within the tool
 - Entity (LCN/TSPM)
 
 ### Summary
-```
-┌───────────────────────────────┐
-│          Summary (Main)       │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                    Account Summary                                                 │
-└──────────────┬──────────────┬──────────────┬───────────────────────────┬───────────────────┬──────────────┬────────┘
-               │              │              │                           │                   │              │
-               ▼              ▼              ▼                           ▼                   ▼              ▼
-┌────────────────────┐ ┌─────────┐ ┌─────────────┐ ┌──────────────────────────┐ ┌────────────────┐ ┌────────────┐
-│  Account Detail    │ │ Status  │ │ PCC / OID   │ │ Standard Form of Payment │ │ Deal/Disc Codes│ │  Contacts  │
-└───────────┬────────┘ └─────────┘ └─────────────┘ └──────────────────────────┘ └────────────────┘ └────────────┘
-            │                │                  │                     │                       │
-            ▼                ▼                  ▼                     ▼                       ▼
-┌───────────────────┐  ┌─────────────┐     ┌───────────────────┐    ┌────────────────────┐   ┌───────────────────┐
-│ TSPM Number       │  │   OBT       │     │ Region of Service │    │ Point of Sale Tool │   │ Daytime Ops Hours │
-├───────────────────┤  └─────────────┘     ├───────────────────┤    └────────────────────┘   └───────────────────┘
-│ GDS               │                      │ Ops Region        │
-├───────────────────┤                      ├───────────────────┤
-│ GDS Profile Name  │                      │ Country of Serv.  │
-├───────────────────┤                      ├───────────────────┤
-│ Traveler Profile  │                      │ BCD Team          │
-├───────────────────┤                      ├───────────────────┤
-│ GCN               │                      │ HPA               │
-├───────────────────┤                      ├───────────────────┤
-│ SMID              │                      │ APA               │
-├───────────────────┤                      ├───────────────────┤
-│ SQL ID            │                      │ Trip Authorizer   │
-├───────────────────┤                      ├───────────────────┤
-│ Back Office 1     │                      │ NDC               │
-├───────────────────┤                      └───────────────────┘
-│ Cust# / LCN 1     │
-├───────────────────┤
-│ DK 1              │
-├───────────────────┤
-│ Back Office 2     │
-├───────────────────┤
-│ Cust# / LCN 2     │
-├───────────────────┤
-│ DK 2              │
-├───────────────────┤
-│ Acct Type/Segment │
-├───────────────────┤
-│ L1 Profile        │
-├───────────────────┤
-│ L2 Profile        │
-├───────────────────┤
-│ HR Feed           │
-├───────────────────┤
-│ HR Feed Freq      │
-├───────────────────┤
-│ E-Invoice Portal  │
-├───────────────────┤
-│ E-Invoice Location│
-└───────────────────┘
-```
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/account_summary_diagram.svg" width="100%" alt="Video Placeholder">
+
 ### Policy
 #### General & Core
 <img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/policy_overview.gif" width="100%" alt="Video Placeholder">
