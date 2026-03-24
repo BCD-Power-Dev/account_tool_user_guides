@@ -28,13 +28,13 @@ Overview of segments within the tool
                                                 └──────────────────────┘  └──────────────────┘
 ```
 #### GCN Level
-![Video Placeholder](https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/account_selection_land.gif)
+![Video Placeholder](https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/account_selection_land.gif)
 
 - Search by GCN / Name
 - Preview/Select Filtered Country (SMID) based on selected GCN
 - Option to select Country(SMID) or View Entities (LCN/TSPM)
 #### Country (SMID) Level
-<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/blob/main/docs/images/select_smid.gif" width="100%" alt="Video Placeholder">
+<img src="https://raw.githubusercontent.com/BCD-Power-Dev/account_tool_user_guides/main/docs/images/select_smid.gif" width="100%" alt="Video Placeholder">
 
 - SMID Selection only
 #### Entity (LCN/TSPM) Level
